@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #logo a {
+    text-decoration: none;
+  }
+  #logo a:hover {
+    text-decoration-color: #ddd;
+  }
+  #logo {
+    font-family: sans-serif;
+    color: black;
+    text-transform: lowercase;
+    margin: 0;
+    font-size: 0;
+    cursor: default;
+    transform: scale(3.85);
+  }
+  #logo em {
+    font-size: 1rem;
+    letter-spacing: -.025em;
+    font-style: normal;
+  }
+  #logo i {
+    font-size: 1rem;
+    letter-spacing: -.015em;
+    font-style: normal;
+    font-weight: normal;
+  }
