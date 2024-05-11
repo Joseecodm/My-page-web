@@ -3,31 +3,33 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: black;
   }
   
   #logo a {
     text-decoration: none;
   }
   #logo a:hover {
-    text-decoration-color: #ddd;
+    text-decoration-color: white;
   }
   #logo {
     font-family: sans-serif;
-    color: black;
-    text-transform: lowercase;
+    color: white;
     margin: 0;
+    text-transform:none;
     font-size: 0;
     cursor: default;
     transform: scale(3.85);
   }
   #logo em {
-    font-size: 1rem;
-    letter-spacing: -.025em;
+    font-size: 1.0rem;
+    letter-spacing: -0.10em;
     font-style: normal;
+    font-style: bold;
   }
   #logo i {
-    font-size: 1rem;
-    letter-spacing: -.015em;
+    font-size: 1.0rem;
+    letter-spacing: -.010em;
     font-style: normal;
     font-weight: normal;
   }
