@@ -4,6 +4,7 @@ html, body {
     align-items: center;
     justify-content: center;
     background-color: black;
+    animation: fadeOut 3s ease forwards;
   }
   
   #logo a {
@@ -33,3 +34,9 @@ html, body {
     font-style: normal;
     font-weight: normal;
   }
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
