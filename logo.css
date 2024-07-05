@@ -1,42 +1,51 @@
-html, body {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    animation: fadeOut 3s ease forwards;
-  }
-  
-  #logo a {
-    text-decoration: none;
-  }
-  #logo a:hover {
-    text-decoration-color: white;
-  }
-  #logo {
-    font-family: sans-serif;
-    color: white;
-    margin: 0;
-    text-transform:none;
-    font-size: 0;
-    cursor: default;
-    transform: scale(3.85);
-  }
-  #logo em {
-    font-size: 1.0rem;
-    letter-spacing: -0.10em;
-    font-style: normal;
-    font-style: bold;
-  }
-  #logo i {
-    font-size: 1.0rem;
-    letter-spacing: -.010em;
-    font-style: normal;
-    font-weight: normal;
-  }
-
-@keyframes fadeOut {
-    0% { opacity: 1; }
-    100% { opacity: 0; }
+html,
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  animation: fadeOut 3s ease forwards;
 }
 
+#logo a {
+  text-decoration: none;
+}
+
+#logo a:hover {
+  text-decoration-color: white;
+}
+
+#logo {
+  font-family: sans-serif;
+  color: rgb(31, 27, 27);
+  margin: 0;
+  text-transform: none;
+  font-size: 0;
+  cursor: default;
+  transform: scale(3.85);
+}
+
+#logo em {
+  font-size: 1.0rem;
+  letter-spacing: -0.10em;
+  font-style: normal;
+  font-style: bold;
+}
+
+#logo i {
+  font-size: 1.0rem;
+  letter-spacing: -.010em;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

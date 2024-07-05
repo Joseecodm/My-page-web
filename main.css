@@ -1,13 +1,32 @@
-html, body {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    animation: fadeIn 3s ease forwards;
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* Centra verticalmente */
+  justify-content: center;
+  /* Centra horizontalmente */
+  background-color: black;
+  animation: fadeIn 3s ease forwards;
+  /* Mantenemos tu animación */
+  font-family: sans-serif;
+  /* Añadimos una fuente general */
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+    /* Añade padding en pantallas pequeñas para evitar que el contenido toque los bordes */
+  }
+}
+
+/* Mantenemos tu keyframe de animación fadeIn */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
 
-  @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+  100% {
+    opacity: 1;
+  }
 }
